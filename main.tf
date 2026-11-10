@@ -6,6 +6,7 @@ terraform {
 locals {
   project_name = "git-learning-lab"
   environment  = "dev"
+  owner        = "cloud-security-team"
 }
 
 output "project_name" {
